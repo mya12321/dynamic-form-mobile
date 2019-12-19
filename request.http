@@ -1,0 +1,24 @@
+POST http://test.fuwugongshe.com/api/gz/user/login.json
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+
+{
+  "username": "13350388540",
+  "password": "12121212",
+  "regisId": "",
+  "pc": "false"
+}
+
+###
+POST http://test.fuwugongshe.com/fwgs/api/app/matter/getIndustrialProjects
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Token: f88fc0af-5da9-47eb-9060-b727b3eb98a4
+
+{
+  "id": "439"
+}
+
+###

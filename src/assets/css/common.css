@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei","微软雅黑","PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,sans-serif;
+}
+.alertBox {
+  width: 300px;
+}
+.confirmBox {
+  width: 300px;
+}
+button.el-button--primary,button.el-button--primary:focus,button.el-button--primary:hover {
+  color: white;
+  background: linear-gradient(90deg,rgba(66,116,246,1),rgba(122,96,255,1));
+  border: none;
+}
+button.el-button--primary.is-plain {
+  color: #4672F6;
+  background: none;
+  border-image: none;
+  border: 1px solid #4672F6;
+}
+.shiming-black {
+  background-image: url("../img/qianming_shiming_3@2x.png");
+  background-size: 100% 100%;
+}
+.shiming-blue {
+  background-image: url("../img/qianming_shiming_2@2x.png");
+  background-size: 100% 100%;
+}
+.shiming-grey {
+  background-image: url("../img/qianming_shiming_1@2x.png");
+  background-size: 100% 100%;
+}
+.huoti-black {
+  background-image: url("../img/qianming_huoti_3@2x.png");
+  background-size: 100% 100%;
+}
+.huoti-blue {
+  background-image: url("../img/qianming_huoti_2@2x.png");
+  background-size: 100% 100%;
+}
+.huoti-grey {
+  background-image: url("../img/qianming_huoti_1@2x.png");
+  background-size: 100% 100%;
+}
+.qianming-black {
+  background-image: url("../img/qianming_luru_3@2x.png");
+  background-size: 100% 100%;
+}
+.qianming-blue {
+  background-image: url("../img/qianming_luru_2@2x.png");
+  background-size: 100% 100%;
+}
+.qianming-grey {
+  background-image: url("../img/qianming_luru_1@2x.png");
+  background-size: 100% 100%;
+}
+.toast {
+  position: fixed;
+  line-height: 36px;
+  border-radius: 20px;
+  top: 25vh;
+  background-color: rgba(0,0,0,0.8);
+  font-size: 14px;
+  min-width: 10px;
+}
+.toast p.el-message__content {
+  color: white;
+}
+.toast i.el-message__icon {
+  display: none;
+}
+.icon-step2-before {
+  background-image: url("../img/jd_yitw@2x.png");
+  background-size: 100% 100%;
+}
+.icon-step2-current {
+  background-image: url("../img/jd_weitw@2x.png");
+  background-size: 100% 100%;
+}
+.icon-step2-after {
+  background-image: url("../img/jd_weiban@2x.png");
+  background-size: 100% 100%;
+}
+.weui-half-screen-dialog {
+  padding: 0 24px;
+}
